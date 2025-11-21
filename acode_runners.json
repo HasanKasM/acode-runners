@@ -1,0 +1,12 @@
+{
+  "runners": [
+    {
+      "name": "Run →",
+      "command": "python3 {file} || php {file} || node {file} || javac {file} && java {file_base} || g++ {file} -o {file_base} && ./{file_base} || gcc {file} -o {file_base} && ./{file_base} || bash {file} || ruby {file} || go run {file} || rustc {file} -o {file_base} && ./{file_base} || kotlinc {file} -include-runtime -d {file_base}.jar && java -jar {file_base}.jar || ts-node {file} || perl {file} || swift {file} || lua {file}",
+      "ext": [
+        "py", "php", "js", "mjs", "java", "cpp", "cxx", "cc", "c",
+        "sh", "rb", "go", "rs", "kt", "ts", "pl", "swift", "lua"
+      ]
+    }
+  ]
+}
